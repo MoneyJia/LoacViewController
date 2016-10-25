@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "GestureViewController.h"  //手势
+#import "MainViewController.h"     //主试图
 
 @interface AppDelegate ()
 
@@ -17,6 +19,19 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    //1.创建window
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    if([[NSUserDefaults standardUserDefaults] objectForKey:@"gesture_mask"]){
+        self.window.rootViewController = [[GestureViewController alloc] init];
+
+    }else{
+        self.window.rootViewController = [[MainViewController alloc] init];
+
+    }
+    
     return YES;
 }
 

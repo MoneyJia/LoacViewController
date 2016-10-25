@@ -15,6 +15,15 @@
 		833A399D1DBF37CE0002DE62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 833A399B1DBF37CE0002DE62 /* LaunchScreen.storyboard */; };
 		833A39A81DBF37CE0002DE62 /* GestureSwitchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 833A39A71DBF37CE0002DE62 /* GestureSwitchTests.m */; };
 		833A39B31DBF37CE0002DE62 /* GestureSwitchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 833A39B21DBF37CE0002DE62 /* GestureSwitchUITests.m */; };
+		833A39C21DBF38450002DE62 /* GestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 833A39C11DBF38450002DE62 /* GestureViewController.m */; };
+		833A39C51DBF384F0002DE62 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 833A39C41DBF384F0002DE62 /* MainViewController.m */; };
+		833A39C81DBF3A210002DE62 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 833A39C71DBF3A210002DE62 /* UIViewExt.m */; };
+		833A39CB1DBF3BAA0002DE62 /* GestureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 833A39CA1DBF3BAA0002DE62 /* GestureView.m */; };
+		833A39D01DBF3EF80002DE62 /* DDButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 833A39CD1DBF3EF80002DE62 /* DDButton.m */; };
+		833A39D11DBF3EF80002DE62 /* UIResponder+Method.m in Sources */ = {isa = PBXBuildFile; fileRef = 833A39CF1DBF3EF80002DE62 /* UIResponder+Method.m */; };
+		833A39D41DBF3F670002DE62 /* NSObject+method.m in Sources */ = {isa = PBXBuildFile; fileRef = 833A39D31DBF3F670002DE62 /* NSObject+method.m */; };
+		833A39D71DBF436C0002DE62 /* DDLockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 833A39D61DBF436C0002DE62 /* DDLockView.m */; };
+		833A39DA1DBF45000002DE62 /* DDCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 833A39D91DBF45000002DE62 /* DDCircleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,24 @@
 		833A39AE1DBF37CE0002DE62 /* GestureSwitchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GestureSwitchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		833A39B21DBF37CE0002DE62 /* GestureSwitchUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GestureSwitchUITests.m; sourceTree = "<group>"; };
 		833A39B41DBF37CE0002DE62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		833A39C01DBF38450002DE62 /* GestureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureViewController.h; sourceTree = "<group>"; };
+		833A39C11DBF38450002DE62 /* GestureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GestureViewController.m; sourceTree = "<group>"; };
+		833A39C31DBF384F0002DE62 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		833A39C41DBF384F0002DE62 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		833A39C61DBF3A210002DE62 /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		833A39C71DBF3A210002DE62 /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
+		833A39C91DBF3BAA0002DE62 /* GestureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureView.h; sourceTree = "<group>"; };
+		833A39CA1DBF3BAA0002DE62 /* GestureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GestureView.m; sourceTree = "<group>"; };
+		833A39CC1DBF3EF80002DE62 /* DDButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDButton.h; sourceTree = "<group>"; };
+		833A39CD1DBF3EF80002DE62 /* DDButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDButton.m; sourceTree = "<group>"; };
+		833A39CE1DBF3EF80002DE62 /* UIResponder+Method.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIResponder+Method.h"; sourceTree = "<group>"; };
+		833A39CF1DBF3EF80002DE62 /* UIResponder+Method.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+Method.m"; sourceTree = "<group>"; };
+		833A39D21DBF3F670002DE62 /* NSObject+method.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+method.h"; sourceTree = "<group>"; };
+		833A39D31DBF3F670002DE62 /* NSObject+method.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+method.m"; sourceTree = "<group>"; };
+		833A39D51DBF436C0002DE62 /* DDLockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLockView.h; sourceTree = "<group>"; };
+		833A39D61DBF436C0002DE62 /* DDLockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDLockView.m; sourceTree = "<group>"; };
+		833A39D81DBF45000002DE62 /* DDCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDCircleView.h; sourceTree = "<group>"; };
+		833A39D91DBF45000002DE62 /* DDCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDCircleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +130,26 @@
 			children = (
 				833A39901DBF37CE0002DE62 /* AppDelegate.h */,
 				833A39911DBF37CE0002DE62 /* AppDelegate.m */,
+				833A39C01DBF38450002DE62 /* GestureViewController.h */,
+				833A39C11DBF38450002DE62 /* GestureViewController.m */,
+				833A39C91DBF3BAA0002DE62 /* GestureView.h */,
+				833A39CA1DBF3BAA0002DE62 /* GestureView.m */,
+				833A39C31DBF384F0002DE62 /* MainViewController.h */,
+				833A39C41DBF384F0002DE62 /* MainViewController.m */,
+				833A39C61DBF3A210002DE62 /* UIViewExt.h */,
+				833A39C71DBF3A210002DE62 /* UIViewExt.m */,
 				833A39931DBF37CE0002DE62 /* ViewController.h */,
 				833A39941DBF37CE0002DE62 /* ViewController.m */,
+				833A39CC1DBF3EF80002DE62 /* DDButton.h */,
+				833A39CD1DBF3EF80002DE62 /* DDButton.m */,
+				833A39D51DBF436C0002DE62 /* DDLockView.h */,
+				833A39D61DBF436C0002DE62 /* DDLockView.m */,
+				833A39D81DBF45000002DE62 /* DDCircleView.h */,
+				833A39D91DBF45000002DE62 /* DDCircleView.m */,
+				833A39CE1DBF3EF80002DE62 /* UIResponder+Method.h */,
+				833A39CF1DBF3EF80002DE62 /* UIResponder+Method.m */,
+				833A39D21DBF3F670002DE62 /* NSObject+method.h */,
+				833A39D31DBF3F670002DE62 /* NSObject+method.m */,
 				833A39961DBF37CE0002DE62 /* Main.storyboard */,
 				833A39991DBF37CE0002DE62 /* Assets.xcassets */,
 				833A399B1DBF37CE0002DE62 /* LaunchScreen.storyboard */,
@@ -273,8 +318,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				833A39D71DBF436C0002DE62 /* DDLockView.m in Sources */,
+				833A39C21DBF38450002DE62 /* GestureViewController.m in Sources */,
+				833A39D01DBF3EF80002DE62 /* DDButton.m in Sources */,
 				833A39951DBF37CE0002DE62 /* ViewController.m in Sources */,
 				833A39921DBF37CE0002DE62 /* AppDelegate.m in Sources */,
+				833A39C51DBF384F0002DE62 /* MainViewController.m in Sources */,
+				833A39DA1DBF45000002DE62 /* DDCircleView.m in Sources */,
+				833A39C81DBF3A210002DE62 /* UIViewExt.m in Sources */,
+				833A39D11DBF3EF80002DE62 /* UIResponder+Method.m in Sources */,
+				833A39CB1DBF3BAA0002DE62 /* GestureView.m in Sources */,
+				833A39D41DBF3F670002DE62 /* NSObject+method.m in Sources */,
 				833A398F1DBF37CE0002DE62 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
